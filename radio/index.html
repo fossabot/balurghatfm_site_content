@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Balurghat FM - ১৬ আনা বাঙ্গালী আনা</title>
+  <meta name="description" content="Listen to free internet radio stations streaming ever green, super hit Bengali & Hindi songs!">
+  <meta name="keywords"
+          content="balurghat fm, balurghat on air, song request, balurghat radio, balurghat radio station, bengali online radio stations, listen balurghat fm radio stations online, akashvani balurghat radio online, 98.3 radio mirchi balurghat online streaming, bengali film songs, bengali folk songs, baul songs, bengali modern songs, Bangla rock, rabindra sangeet, nazrul geeti, pancha kabir gaan">	
+  <link rel="icon" href="contents/images/fav.png" type="image/png" sizes="16x16">	
+  <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="contents/css/style.css">
+  <link rel="stylesheet" href="contents/css/anti-adblock.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">	
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <style>
+               table, th, td {
+               border: 1px solid black;
+               }
+				
+			   mybrowser {
+               padding: 5px;
+               font-size: 15px;
+               } 
+				
+            </style>	
+
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.beupgraded.co.in/radio/contents/images/index.jpg" />
+        <meta property="og:title" content="Balurghat FM - ১৬ আনা বাঙ্গালী আনা" />
+        <meta property="og:description" content="Listen to free internet radio stations streaming ever green, super hit Bengali & Hindi songs!" />
+        
+<script type="text/javascript">
+function updateNowPlaying(){
+	$.ajax({
+		url: "now-playing.php",
+		cache: false,
+		success: function(html){
+			$("#nowPlaying").html(html);
+		}
+	});
+}
+updateNowPlaying();
+setInterval( "updateNowPlaying()", 5000 );
+</script>
+  
+</head>
+
+<body>	
+<div id="h237">
+    <span></span>
+</div>
+
+
+<section id="musik-player">
+  <audio id="musik-player_elmnt" style="display:none;" src="" type="audio/mpeg"></audio>
+  
+  <div id="musik-player_cover">
+    <div id="musik-player_cover-menu">
+      <button id="musik-player_toggle"></button>
+      <h1 data-album="১৬ আনা বাঙ্গালী আনা">Balurghat FM</h1>
+    </div>
+    <div id="musik-player_cover-fade"></div>
+    <div id="musik-player_cover-image" style="background-image:url('contents/images/cover/snow.jpg');"></div>
+  </div>
+
+  <div id="musik-player_title">
+    <div id="nowPlaying"></div>
+  </div>
+  
+  
+  <div id="musik-player_dial">
+	  
+	  <br>
+   &nbsp; <i class="em em-musical_note"></i> &nbsp; <a href="pages/songreq/index.php" target="_blank"><strong><font color="white">Request Song</font></strong></a>
+	  
+    <button id="musik-player_dial_button">
+      <svg version="1.1" id="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="216px" height="146px" viewBox="0 0 216 146" enable-background="new 0 0 216 146" xml:space="preserve">
+        <path d="M163.441,70.473L55.246,10.346c-1.249-0.706-2.322-0.787-3.218-0.244s-1.344,1.521-1.344,2.933v119.928 c0,1.413,0.448,2.391,1.344,2.934s1.969,0.463,3.218-0.244l108.195-60.127c1.25-0.707,1.875-1.551,1.875-2.527 C165.316,72.021,164.691,71.179,163.441,70.473z"/>
+      </svg>
+      <svg version="1.1" id="pause" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="216px" height="146px" viewBox="0 0 216 146" enable-background="new 0 0 216 146" xml:space="preserve">
+        <g>
+        	<path d="M92.357,10.429H50.643c-1.413,0-2.635,0.516-3.667,1.548c-1.032,1.032-1.548,2.254-1.548,3.666v114.714 c0,1.412,0.516,2.635,1.548,3.666c1.033,1.032,2.255,1.549,3.667,1.549h41.715c1.412,0,2.634-0.517,3.666-1.549 c1.032-1.031,1.548-2.254,1.548-3.666V15.643c0-1.413-0.516-2.634-1.549-3.666C94.991,10.945,93.769,10.429,92.357,10.429z"/>
+        	<path d="M169.023,11.977c-1.032-1.032-2.254-1.548-3.666-1.548h-41.715c-1.412,0-2.635,0.516-3.666,1.548 c-1.033,1.032-1.549,2.254-1.549,3.666v114.714c0,1.412,0.516,2.635,1.549,3.666c1.031,1.032,2.254,1.549,3.666,1.549h41.715 c1.412,0,2.634-0.517,3.666-1.549c1.031-1.031,1.547-2.254,1.547-3.666V15.643C170.57,14.23,170.055,13.009,169.023,11.977z"/>
+        </g>
+      </svg>
+    </button>
+  </div>
+
+  <div id="musik-player_seek">
+    <div id="musik-player_seek-start">0:00</div>
+    <div id="musik-player_seek-base"></div>
+    <div id="musik-player_seek-mask"></div>
+    <div id="musik-player_seek-current"></div>
+  </div>
+
+  <div id="musik-player_share">
+    <a target="_blank" href="https://facebook.com/blgtfm/" class="musik-player_social-icon facebook"><span class="sr-only">Connect with Us on Facebook</span></a>
+  </div>
+  <div id="musik-player_tracklist">
+    <ol>
+      <li data-file="https://prositecrafter.design/radio/8000/radio.mp3">Balurghat FM</li>
+    </ol>
+  </div>
+
+</section>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script  src="contents/js/index.js"></script>
+	
+<center>	
+	<mybrowser>
+	   <p style="text-align: center;"><strong><font color="white">Compatible Browser</font></strong></p>
+        <img src="contents/images/footerbrowser/chromeico.png" alt="Google Chrome" width="28" height="28" />&nbsp;<img src="contents/images/footerbrowser/firefoxico.png" alt="Mozila Firefox" width="28" height="28" />&nbsp;<img src="contents/images/footerbrowser/operaico.png" alt="Opera Browser" width="28" height="28" />&nbsp;<img src="contents/images/footerbrowser/safariico.png" alt="Safari" width="28" height="28" />&nbsp;<img src="contents/images/footerbrowser/edgeico.png" alt="Microsoft Edge" width="28" height="28" />
+	</mybrowser>
+		<br>
+	       <img src="contents/images/dolbyexp.png" width="230" height="50" alt="Balurghat FM Now Supports Dolby Atmos"/>
+	    <br>
+	       <strong><font color="white">Made with the Love of <i class="em em-hearts"></i> বালুরঘাটবাসী</font></strong>
+</center>
+	      <script  src="contents/js/anti-adblock.js"></script>
+
+
+	<br>
+<div align="center">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7551226440192464"
+     data-ad-slot="3885372211"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+	<br>
+</body>
+
+</html>

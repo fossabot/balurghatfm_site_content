@@ -1,0 +1,58 @@
+#h237 {
+        background-color: #fcfcfc;
+        opacity: .95;
+        display: table;
+        position: fixed!important;
+        position: absolute;
+        z-index: 9999!important;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        top: expression((t=document.documentElement.scrollTop?document.documentElement.scrollTop: document.body.scrollTop)+"px");
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 2% 0
+    }
+    
+    #h237 p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        color: #7a7a7a;
+        line-height: 30px;
+        text-decoration: none;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto
+    }
+    
+    #h237 p a {
+        background: #ff4e00;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff!important;
+        line-height: initial;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        width: 100px;
+        padding: 10px;
+        border-radius: 3px;
+        margin: 30px auto;
+        clear: both;
+        transition: all .3s ease-out
+    }
+    
+    #h237 p a:hover {
+        background: #00BF59;
+        color: #fff
+    }
+    
+    #h237~ * {
+        display: none
+    }
+ 
