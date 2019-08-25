@@ -8,4 +8,4 @@
 
 ## Live Demo
 
-Want to see Balurghat FM for yourself? visit our demo site at [beupgraded.co.in](beupgraded.co.in)
+Want to see Balurghat FM for yourself? visit our demo site at [https://beupgraded.co.in](beupgraded.co.in)
