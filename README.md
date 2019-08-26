@@ -1,6 +1,7 @@
 # Balurghat FM: A Open Source PHP Web Based ShoutCast/Icecast Player
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/Balurghat-FM/balurghatfm_site_content?branch=master)](https://bettercodehub.com/)
+[![Build Status](https://travis-ci.com/MakeMeCool/questions.svg?branch=master)](https://travis-ci.com/MakeMeCool/questions)
 
 **Requirements:**
 1. PHP => 5.6
