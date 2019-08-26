@@ -1,0 +1,14 @@
+{
+    "name": "sabyasachi_sarkar/balurghatfm_site_content",
+    "description": "Balurghat FM Site Content",
+    "type": "project",
+    "license": "GNU3",
+    "authors": [
+        {
+            "name": "MakeMeCool",
+            "email": "sabyasachi2017@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
